@@ -8,7 +8,7 @@ pipeline {
             }
             stage('Extract Data') {
                     steps {
-                        bat "python extract.py"
+                        bat "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe extract.py"
                     
                     }
                             // Add build commands here
